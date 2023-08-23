@@ -1,0 +1,88 @@
+.title h1{
+   flex-direction: column;
+    font-size: 3.5rem;
+    text-align:inherit;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+    color: white;
+    margin-left: 3svw;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5svh;
+
+}
+.container{
+ display: flex;
+
+}
+.fb, .tktk, .snap, .cfee{
+    cursor: url('/images/icons8-torpedo-48.png'),crosshair;
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 30vh;
+    width: 20vw;
+    background-color: #757b6f5f;
+    border: none;
+    border-radius: 1rem;
+  box-shadow: .4rem .4rem 8rem rgba(193, 189, 189, 0.354);
+}
+
+.container h1{
+    color:#ffffff ;
+	
+	margin-top: 2rem;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+font-size: 1.5rem;
+text-align: center;
+margin-left : auto;
+margin-right: auto;
+box-shadow: none;
+width: 100%;
+}
+.icon {
+flex-direction: column;
+height: 4rem;
+width: 4rem;
+margin-left: auto;
+margin-right: auto;
+padding: auto;
+
+
+}
+a{
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    cursor: url('/images/icons8-torpedo-48.png'),crosshair;
+
+    }
+.title h3{
+    color:#757b6f ;
+	padding-top: 0%;
+	margin-top: 0;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+font-size: 1rem;
+text-align: center;
+margin-left: 3svw;
+margin-bottom: 15vw;
+}
+.fb2, .tktk2, .snap2, .cfee2{
+    display: flex;
+    flex-direction: column;
+    margin: inherit;
+    height:inherit;
+    width: inherit;
+    background:transparent;
+    border-radius: 1rem;
+    border: none;
+    padding: auto;
+    margin: auto;
+  
+}
